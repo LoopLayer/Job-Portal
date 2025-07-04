@@ -1,0 +1,21 @@
+# Ignore all node_modules folders
+node_modules/
+**/node_modules/
+
+# Ignore env files in both server and client
+server/.env
+client/.env
+
+# Build outputs
+client/dist/
+client/build/
+
+# Logs
+logs
+*.log
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
