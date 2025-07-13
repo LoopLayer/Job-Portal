@@ -62,7 +62,7 @@ const Signup = () => {
     try {
       dispatch(setLoading(true));
       const res = await axios.post(
-        "https://job-portal-uy0l.onrender.com/api/v1/users/register",
+        "https://job-portal-uy0l.onrender.com/api/v1/user/register",
         formData,
         {
           headers: {
