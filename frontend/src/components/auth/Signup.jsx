@@ -50,7 +50,7 @@ const Signup = () => {
     }
 
     const formData = new FormData();
-    formData.append("fullname", input.fullName);
+    formData.append("fullname", input.fullname);
     formData.append("email", input.email);
     formData.append("phoneNumber", input.phoneNumber);
     formData.append("password", input.password);
