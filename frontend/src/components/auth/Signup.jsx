@@ -13,7 +13,7 @@ import { setLoading } from "@/redux/authSlice";
 
 const Signup = () => {
   const [input, setInput] = useState({
-    fullName: "",
+    fullname: "",
     email: "",
     phoneNumber: "",
     username: "",
@@ -38,7 +38,7 @@ const Signup = () => {
     e.preventDefault();
 
     if (
-      !input.fullName ||
+      !input.fullname ||
       !input.username ||
       !input.email ||
       !input.password ||
@@ -119,8 +119,8 @@ const Signup = () => {
             <Input
               type="text"
               placeholder="Full Name"
-              value={input.fullName}
-              name="fullName"
+              value={input.fullname}
+              name="fullname"
               onChange={changeEventHandler}
             />
           </div>
