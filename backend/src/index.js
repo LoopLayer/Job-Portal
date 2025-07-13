@@ -4,9 +4,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./utils/db.js";
 import userRoute from "./routers/user.routes.js";
-import companyRoute from "./routers/company.route.js";
-import jobRoute from "./routers/job.route.js";
-import applicationRoute from "./routers/application.route.js";
+import companyRoute from "./routers/company.routes.js";
+import jobRoute from "./routers/job.routes.js";
+import applicationRoute from "./routers/application.routes.js";
 
 dotenv.config({});
 
